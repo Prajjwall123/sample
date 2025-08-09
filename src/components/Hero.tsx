@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 
 const keyboardBg = new URL('../assets/keyboard.png', import.meta.url).href;
-const profilePhoto = new URL('../assets/photo.png', import.meta.url).href;
+const profilePhoto = 'https://i.postimg.cc/JzVHW5Wm/ae06596a-18bc-4546-885f-eccd3a87fcf7.jpg';
 
 const Hero = () => {
     const [displayText, setDisplayText] = useState('');
